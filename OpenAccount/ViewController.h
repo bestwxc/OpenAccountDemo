@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet WKWebView *openWebView; // 开户webview
 
 
 @end
